@@ -20,6 +20,10 @@ body {
 .third {
     font-size: 45px;
 }
+li {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
 img {
     display: block;
     margin-left: auto;
@@ -44,9 +48,6 @@ img {
 
 .apple{
     background-color: rgb(165, 29, 29);
-}
-li.apple{
-    padding-left: 20px;
 }
 
 .mainbody {
