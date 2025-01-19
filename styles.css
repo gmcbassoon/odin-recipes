@@ -3,14 +3,21 @@ body {
     font-size: 24px;
 }
 
-h1 {
+.header {
     text-align: center;
+    background-color: black;
+    color: lightskyblue
+}
+
+.first {
+    font-size: 50px;
 }
 
 img {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    padding: 24px;
 }
 
 .button {
@@ -27,6 +34,7 @@ img {
     padding-left: 300px;
     padding-bottom: 40px;
 }
+
 .mainbody {
    padding-right: 40px;
    padding-left: 40px;
@@ -37,6 +45,7 @@ img {
     color: orangered;
     background-color: greenyellow;
 }
+
 .tools {
     color:rgb(185, 40, 185);
     background-color: black;
