@@ -1,8 +1,11 @@
 body {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 24px;
+    background-color: lightskyblue;
 }
-
+.flex-container {
+    display: flex;
+}
 .header {
     text-align: center;
     background-color: black;
@@ -21,44 +24,60 @@ body {
     font-size: 45px;
 }
 li {
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding: 15px 0;
 }
 img {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
     padding: 24px;
 }
 
 .button {
     background-color: rgb(189, 144, 189);
-    padding-top: 40px;
-    text-align: center;
+    margin: 4px auto;
+    padding: 4px;
+    width: fit-content;
+    border-style: inset inset;
+    border-color: black;
+
+}
+.nav {
+    position: absolute;
+    width: 300px;
+    height: fit-content;
+    background-color: black;
+}
+.main-page {
+    word-wrap: break-word;
+    border-style: inset inset;
+    border-color: lightskyblue;
+    background-color: black;
+    color: white;
+    padding: 4px;
+    margin: 0 auto;
+    width: 600px;
+    flex: 3;
 }
 
-.potato {
-    padding-right: 300px;
-}
-
-.applesauce {
-    padding-left: 300px;
-    padding-bottom: 40px;
+.chef-hat {
+    position: relative;
+    width: auto;
+    height: 400px;
 }
 
 .apple{
     background-color: rgb(165, 29, 29);
 }
 
-.mainbody {
-   padding-right: 40px;
-   padding-left: 40px;
-   margin-top: 30px;
+p {
+    text-align: center;
+    padding: 0 40px;
+    margin-top: 30px;
 }
 
 .ingredients {
-    color: orangered;
-    background-color: greenyellow;
+    color: orchid;
+    background-color: black;
 }
 
 .tools {
@@ -67,8 +86,7 @@ img {
 }
 
 .cooking {
-    background-color: orangered;
-    color: aliceblue;
+    background-color: orchid;
     padding-top: 25px;
     padding-bottom: 25px;
     margin-top: 40px;
